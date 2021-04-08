@@ -118,11 +118,11 @@ tr, th, td {
   text-align: center;
 }
 
-/*th {
+th {
   background: lightgray;
 }
 
-.column-title {
+/*.column-title {
   font-size: 1.5em;
   font-weight: bold;
 }
