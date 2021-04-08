@@ -135,11 +135,11 @@ th {
   background: #FFD166;
 }
 
-/*.premium {
+.premium {
   background: #118AB2;
 }
 
-tr:nth-child(even) {
+/*tr:nth-child(even) {
     background-color: #F0F0F0;
 }
 
