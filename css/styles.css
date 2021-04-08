@@ -170,11 +170,11 @@ button {
   color: white;
 }
 
-/*.premiumBtn {
+.premiumBtn {
   border: 2px solid #118AB2;
 }
 
-.premiumBtn:hover {
+/*.premiumBtn:hover {
   background: #118AB2;
   color: white;
 }
