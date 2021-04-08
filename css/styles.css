@@ -1,10 +1,4 @@
-body {
-  text-align: center;
-  font-family: courier;
-  background-image: url("../assets/image.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
+/*
 
 .share__icon {
   width: 32px;
@@ -105,6 +99,108 @@ body {
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 10px;
+}
+
+tr, th, td {
+  border: 1px solid silver;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+th {
+  background: lightgray;
+}
+
+.column-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.basic {
+  background: #EF476F;
+}
+
+.standard {
+  background: #FFD166;
+}
+
+.premium {
+  background: #118AB2;
+}
+
+tr:nth-child(even) {
+    background-color: #F0F0F0;
+}
+
+button {
+  background: none;
+  border: 1px solid black;
+  height: 35px;
+  width: 110px;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.basicBtn {
+  border: 2px solid #EF476F;
+}
+
+.basicBtn:hover {
+ background: #EF476F;
+  color: white;
+}
+
+.standardBtn {
+  border: 2px solid #FFD166;
+}
+
+.standardBtn:hover {
+  background: #FFD166;
+  color: white;
+}
+
+.premiumBtn {
+  border: 2px solid #118AB2;
+}
+
+.premiumBtn:hover {
+  background: #118AB2;
+  color: white;
+}
+
+@media screen and (max-width: 650px){
+  .container {
+    height: 100%;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .column-title {
+    display: block;
+  }
+
+  .inactive {
+    display: none;
+  }
+
+  .addOpacity{
+    opacity: 0.2;
+  }
 }
 
 #contact h1 {
