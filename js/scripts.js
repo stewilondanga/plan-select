@@ -49,20 +49,20 @@ standardPlan.addEventListener("click", function() {
 });
 
 premiumPlan.addEventListener("click", function() {
-      basicPlan.classList.add("addOpacity");
-      standardPlan.classList.add("addOpacity");
-      premiumPlan.classList.remove("addOpacity");
+  basicPlan.classList.add("addOpacity");
+  standardPlan.classList.add("addOpacity");
+  premiumPlan.classList.remove("addOpacity");
 
-      column_one.forEach(function(column) {
-        column.classList.add("inactive");
-      });
-      column_two.forEach(function(column) {
-        column.classList.add("inactive");
-      });
+  column_one.forEach(function(column) {
+    column.classList.add("inactive");
+  });
+  column_two.forEach(function(column) {
+    column.classList.add("inactive");
+  });
 
-      /*column_three.forEach(function(column) {
+  column_three.forEach(function(column) {
     column.classList.remove("inactive");
   });
 });
 
-basicPlan.click();
+/*basicPlan.click();
