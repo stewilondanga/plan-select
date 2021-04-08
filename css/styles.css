@@ -188,11 +188,11 @@ button {
     width: 100%;
   }
 
-  /*.column-title {
+  .column-title {
     display: block;
   }
 
-  .inactive {
+  /*.inactive {
     display: none;
   }
 
