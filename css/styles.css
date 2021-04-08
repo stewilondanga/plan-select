@@ -174,12 +174,12 @@ button {
   border: 2px solid #118AB2;
 }
 
-/*.premiumBtn:hover {
+.premiumBtn:hover {
   background: #118AB2;
   color: white;
 }
 
-@media screen and (max-width: 650px){
+/*@media screen and (max-width: 650px){
   .container {
     height: 100%;
   }
