@@ -31,12 +31,12 @@ basicPlan.addEventListener("click", function() {
   });
 });
 
-/*standardPlan.addEventListener("click", function() {
-  basicPlan.classList.add("addOpacity");
-  standardPlan.classList.remove("addOpacity");
-  premiumPlan.classList.add("addOpacity");
+standardPlan.addEventListener("click", function() {
+      basicPlan.classList.add("addOpacity");
+      standardPlan.classList.remove("addOpacity");
+      premiumPlan.classList.add("addOpacity");
 
-  column_one.forEach(function(column) {
+      /*column_one.forEach(function(column) {
     column.classList.add("inactive");
   });
   column_two.forEach(function(column) {
