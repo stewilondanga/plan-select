@@ -161,11 +161,11 @@ button {
   color: white;
 }
 
-/*.standardBtn {
+.standardBtn {
   border: 2px solid #FFD166;
 }
 
-.standardBtn:hover {
+/*.standardBtn:hover {
   background: #FFD166;
   color: white;
 }
