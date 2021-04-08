@@ -180,11 +180,11 @@ button {
 }
 
 @media screen and (max-width: 650px) {
-  /*.container {
+  .container {
     height: 100%;
   }
 
-  table {
+  /*table {
     width: 100%;
   }
 
