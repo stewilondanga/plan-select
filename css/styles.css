@@ -112,13 +112,13 @@ table {
   margin: 10px;
 }
 
-/*tr, th, td {
+tr, th, td {
   border: 1px solid silver;
   padding: 10px 20px;
   text-align: center;
 }
 
-th {
+/*th {
   background: lightgray;
 }
 
