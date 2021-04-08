@@ -11,10 +11,10 @@ let basicPlan = document.querySelector(".basic");
 let standardPlan = document.querySelector(".standard");
 let premiumPlan = document.querySelector(".premium");
 let column_one = document.querySelectorAll(".col1");
-/*let column_two = document.querySelectorAll(".col2");
+let column_two = document.querySelectorAll(".col2");
 let column_three = document.querySelectorAll(".col3");
 
-basicPlan.addEventListener("click", function() {
+/*basicPlan.addEventListener("click", function() {
   basicPlan.classList.remove("addOpacity");
   standardPlan.classList.add("addOpacity");
   premiumPlan.classList.add("addOpacity");
