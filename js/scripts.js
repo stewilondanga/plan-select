@@ -1,13 +1,13 @@
-/*var navigate = (function() {
-	$('.dd').toggle();
-	$('.dd_btn').click(function() {
-		var dataName = $(this).attr('data-name');
-		$('.dd').hide();
-		$('.' + dataName).toggle();
-	});
+var navigate = (function() {
+  $('.dd').toggle();
+  $('.dd_btn').click(function() {
+    var dataName = $(this).attr('data-name');
+    $('.dd').hide();
+    $('.' + dataName).toggle();
+  });
 })();
 
-let basicPlan = document.querySelector(".basic");
+/*let basicPlan = document.querySelector(".basic");
 let standardPlan = document.querySelector(".standard");
 let premiumPlan = document.querySelector(".premium");
 let column_one = document.querySelectorAll(".col1");
