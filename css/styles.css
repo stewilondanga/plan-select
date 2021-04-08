@@ -179,8 +179,8 @@ button {
   color: white;
 }
 
-/*@media screen and (max-width: 650px){
-  .container {
+@media screen and (max-width: 650px) {
+  /*.container {
     height: 100%;
   }
 
