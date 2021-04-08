@@ -139,11 +139,11 @@ th {
   background: #118AB2;
 }
 
-/*tr:nth-child(even) {
-    background-color: #F0F0F0;
+tr:nth-child(even) {
+  background-color: #F0F0F0;
 }
 
-button {
+/*button {
   background: none;
   border: 1px solid black;
   height: 35px;
