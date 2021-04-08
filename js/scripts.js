@@ -32,23 +32,23 @@ basicPlan.addEventListener("click", function() {
 });
 
 standardPlan.addEventListener("click", function() {
-      basicPlan.classList.add("addOpacity");
-      standardPlan.classList.remove("addOpacity");
-      premiumPlan.classList.add("addOpacity");
+  basicPlan.classList.add("addOpacity");
+  standardPlan.classList.remove("addOpacity");
+  premiumPlan.classList.add("addOpacity");
 
-      column_one.forEach(function(column) {
-        column.classList.add("inactive");
-      });
-      column_two.forEach(function(column) {
-        column.classList.remove("inactive");
-      });
+  column_one.forEach(function(column) {
+    column.classList.add("inactive");
+  });
+  column_two.forEach(function(column) {
+    column.classList.remove("inactive");
+  });
 
-      /*column_three.forEach(function(column) {
+  column_three.forEach(function(column) {
     column.classList.add("inactive");
   });
 });
 
-premiumPlan.addEventListener("click", function() {
+/*premiumPlan.addEventListener("click", function() {
   basicPlan.classList.add("addOpacity");
   standardPlan.classList.add("addOpacity");
   premiumPlan.classList.remove("addOpacity");
