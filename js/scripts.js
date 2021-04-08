@@ -14,12 +14,12 @@ let column_one = document.querySelectorAll(".col1");
 let column_two = document.querySelectorAll(".col2");
 let column_three = document.querySelectorAll(".col3");
 
-/*basicPlan.addEventListener("click", function() {
-  basicPlan.classList.remove("addOpacity");
-  standardPlan.classList.add("addOpacity");
-  premiumPlan.classList.add("addOpacity");
+basicPlan.addEventListener("click", function() {
+      basicPlan.classList.remove("addOpacity");
+      standardPlan.classList.add("addOpacity");
+      premiumPlan.classList.add("addOpacity");
 
-  column_one.forEach(function(column) {
+      /*column_one.forEach(function(column) {
     column.classList.remove("inactive");
   });
   column_two.forEach(function(column) {
