@@ -65,4 +65,4 @@ premiumPlan.addEventListener("click", function() {
   });
 });
 
-/*basicPlan.click();
+basicPlan.click();
