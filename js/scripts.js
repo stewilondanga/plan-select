@@ -48,12 +48,12 @@ standardPlan.addEventListener("click", function() {
   });
 });
 
-/*premiumPlan.addEventListener("click", function() {
-  basicPlan.classList.add("addOpacity");
-  standardPlan.classList.add("addOpacity");
-  premiumPlan.classList.remove("addOpacity");
+premiumPlan.addEventListener("click", function() {
+      basicPlan.classList.add("addOpacity");
+      standardPlan.classList.add("addOpacity");
+      premiumPlan.classList.remove("addOpacity");
 
-  column_one.forEach(function(column) {
+      /*column_one.forEach(function(column) {
     column.classList.add("inactive");
   });
   column_two.forEach(function(column) {
